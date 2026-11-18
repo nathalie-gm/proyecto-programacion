@@ -53,3 +53,16 @@ Cuando se realizan cambios, el sistema guarda la información automáticamente. 
 
 Este sistema permite llevar un mejor control de los empleados, departamentos y pagos de un hospital.
 Su uso es sencillo porque funciona con un menú donde el usuario selecciona la opción que necesita y ademas permite guardar la información para poder verla nuevamente cuando se vuelva a ejecutar el programa.
+
+
+Para la creacion del Proyecto se utilizo la Inteligencia Artificial Claude como herramienta, estos fueron los siguientes prompts que se utilizaron:
+
+"Quiero que revises mi proyecto de C++ y me ayudes a optimizar el Código. Quiero simplificar funciones que estén demasiado largas y aprovechar mejor las clases que ya estan creadas, tambien mantener la estructura actual del proyecto y no agregar clases innecesarias.
+Explícame cada mejora paso a paso y utiliza ejemplos sencillos para que pueda entender cómo funciona."
+
+"Estoy trabajando en un proyecto de C++ que consiste en un sistema de planilla para un hospital. El programa permite registrar empleados, departamentos y comprobantes de pago. Tengo una duda sobre cómo organizar mejor mi código. Estoy trabajando con varias clases y listas enlazadas, pero no sé cuál sería la mejor manera de guardar la información para que no se pierda cuando cierre el programa. Se que es con archivos de texto pero quiero evitar tener todo el código relacionado con guardar y cargar archivos dentro del main.cpp porque siento que se está haciendo muy largo y desordenado. Quiero que me propongas una solución utilizando lenguaje básico, explicándome qué archivos debería crear, qué debería llevar cada uno y cómo conectarlos con las clases que ya tengo.
+Es importante que no cambies toda la estructura de mi proyecto, ya que quiero aprovechar lo que ya he realizado y entender cómo funciona cada modificación." 
+
+
+"Tengo un problema en mi proyecto de C++ y necesito ayuda para solucionarlo, te voy a mandar el código donde aparece el problema y el mensaje de error. Quiero que primero me digas cuál es la causa del error y después me expliques cómo solucionarlo.
+NO modifiques otras partes que ya funcionan bien y respeta las clases y estructuras que ya tengo ya hechas."
